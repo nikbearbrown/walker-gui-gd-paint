@@ -1,0 +1,19 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+DIAG canvas [P: (393.776, 0.0), S: (758.224, 648.0)]
+PASS starts empty
+DIAG press cursor (473.776, 80.0) down true start (473.776, 80.0) inside true INF approx true
+PASS mouse stroke adds brush data
+PASS GUI Undo removes stroke
+PASS GUI selects rectangle
+PASS one rectangle on release
+PASS rectangle geometry
+PASS GUI Clear empties data
+PASS Undo after shape Clear stays empty
+PASS circle adds one record
+PASS circle center and radius
+PASS Undo circle
+PASS eraser command recorded
+PASS Undo after eraser Clear stays empty
+PASS outside-start drag ignored
+RESULT 14 checks; 0 failures

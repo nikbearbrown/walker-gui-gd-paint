@@ -1,0 +1,30 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+DIAG canvas [P: (393.776, 0.0), S: (758.224, 648.0)]
+PASS starts empty
+DIAG press cursor (473.776, 80.0) down true start (473.776, 80.0) inside true INF approx true
+PASS mouse stroke adds brush data
+PASS GUI Undo removes stroke
+PASS GUI selects rectangle
+PASS one rectangle on release
+PASS rectangle geometry
+PASS GUI Clear empties data
+PASS Undo after shape Clear stays empty
+PASS circle adds one record
+PASS circle center and radius
+PASS Undo circle
+PASS eraser command recorded
+PASS Undo after eraser Clear stays empty
+PASS outside-start drag ignored
+PASS GUI selects box brush
+WARNING: This control can grab focus only when screen reader is active. Use set_focus_mode() and set_focus_behavior_recursive() to allow a control to get focus. Use get_tree().is_accessibility_enabled() to check screen-reader state.
+   at: grab_focus (scene/gui/control.cpp:3005)
+   GDScript backtrace (most recent call first):
+       [0] run (res://test_paint.gd:94)
+       [1] press (res://test_paint.gd:34)
+FAIL keyboard slider updates brush size
+PASS size label follows slider
+DIAG configured brush record { &"brush_type": 0, &"brush_pos": (513.776, 110.0), &"brush_shape": 0, &"brush_size": 32, &"brush_color": (0.0, 0.0, 0.0, 1.0) }
+PASS stroke stores selected shape and size
+PASS GUI restores circle brush
+RESULT 19 checks; 1 failures

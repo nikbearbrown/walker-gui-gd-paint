@@ -1,0 +1,10 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+DIAG canvas [P: (393.776, 0.0), S: (758.224, 648.0)]
+PASS starts empty
+FAIL mouse stroke adds brush data
+PASS GUI Undo removes stroke
+PASS GUI selects rectangle
+FAIL one rectangle on release
+PASS GUI Clear empties data
+RESULT 6 checks; 2 failures

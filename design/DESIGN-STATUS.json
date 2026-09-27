@@ -1,0 +1,57 @@
+{
+  "game": "walker-gui-gd-paint",
+  "mode": "recovered",
+  "revision": 1,
+  "design_version": "0.1.0-recovered",
+  "date": "2026-09-27",
+  "recovered_from": {
+    "path": "godot/",
+    "engine_detected": "Godot 4.7 project (config/features 4.7)",
+    "pass": "reverse, silent",
+    "git": "not consulted (no git commands run for this pass)"
+  },
+  "engine": {
+    "name": "godot",
+    "version": "4.7.2.stable (per runtime logs / FRICTIONAL.md)",
+    "renderer": "gl_compatibility"
+  },
+  "gates": {
+    "vision": {
+      "signed_by": null,
+      "date": null,
+      "revision": null
+    },
+    "systems": {
+      "signed_by": null,
+      "date": null,
+      "revision": null
+    },
+    "world": {
+      "signed_by": null,
+      "date": null,
+      "revision": null
+    },
+    "scope": {
+      "signed_by": null,
+      "date": null,
+      "revision": null
+    }
+  },
+  "edu_track": false,
+  "human_playtests": 0,
+  "notes": "Silent recovered draft; gate \u2014 unsigned at time of writing. Describes what exists; approves nothing. Gates are signed by humans only.",
+  "what_it_is": "tech demo (upstream Godot GUI sample: a small paint tool), not a game",
+  "missing_items": 9,
+  "open_questions": 9,
+  "upstream": {
+    "demo": "gui/gd_paint",
+    "commit": "a3b5c113112f77291d5f3d1360f33a882fdc52f7",
+    "diff": "title line + test_paint.gd only"
+  },
+  "verification": {
+    "headless_assertions_passing": 19,
+    "visual_review": false,
+    "save_exercised": false,
+    "films": "pending"
+  }
+}

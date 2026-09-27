@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="462" viewBox="0 0 1134 462" role="img" aria-labelledby="t d">
+<title id="t">Feature map · walker-gui-gd-paint</title>
+<desc id="d">Feature inventory recovered by /gdd reverse; each box names the evidence level. IDs: F-01, F-02, F-03, F-04, F-05, F-06, F-07, F-08, PX.</desc>
+<rect width="1134" height="462" fill="#faf9f5"/>
+<defs>
+<marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#25354a"/></marker>
+<marker id="p" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#d24e42"/></marker>
+</defs>
+<g font-family="Helvetica, Arial, sans-serif" fill="#25354a">
+<text x="32" y="44" font-size="26" font-weight="700">Feature map · walker-gui-gd-paint</text>
+<text x="32" y="70" font-size="14" fill="#5b6b7c">Every recovered feature with its evidence. Solid = in code; teal = in code + headless check passed; grey dashed = intent missing.</text>
+<rect x="32" y="100" width="330" height="78" rx="8" fill="#fffdf7" stroke="#287c68" stroke-width="2.5"/>
+<text x="197" y="135" font-size="16" font-weight="700" fill="#25354a" text-anchor="middle">F-01 Pencil + eraser</text>
+<text x="197" y="153" font-size="13" fill="#5b6b7c" text-anchor="middle">command data verified · pixels UNVERIFIED</text>
+<rect x="402" y="100" width="330" height="78" rx="8" fill="#fffdf7" stroke="#287c68" stroke-width="2.5"/>
+<text x="567" y="135" font-size="16" font-weight="700" fill="#25354a" text-anchor="middle">F-02 Rectangle + circle</text>
+<text x="567" y="153" font-size="13" fill="#5b6b7c" text-anchor="middle">geometry verified headless</text>
+<rect x="772" y="100" width="330" height="78" rx="8" fill="#fffdf7" stroke="#287c68" stroke-width="2.5"/>
+<text x="937" y="135" font-size="16" font-weight="700" fill="#25354a" text-anchor="middle">F-03 Undo (1 level) + Clear</text>
+<text x="937" y="153" font-size="13" fill="#5b6b7c" text-anchor="middle">verified headless</text>
+<rect x="32" y="204" width="330" height="78" rx="8" fill="#fffdf7" stroke="#287c68" stroke-width="2.5"/>
+<text x="197" y="239" font-size="16" font-weight="700" fill="#25354a" text-anchor="middle">F-04 Brush size + shape</text>
+<text x="197" y="257" font-size="13" fill="#5b6b7c" text-anchor="middle">19/19 settings checks</text>
+<rect x="402" y="204" width="330" height="78" rx="8" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="567" y="239" font-size="16" font-weight="700" fill="#25354a" text-anchor="middle">F-05 Brush + background color</text>
+<text x="567" y="257" font-size="13" fill="#5b6b7c" text-anchor="middle">pickers UNVERIFIED</text>
+<rect x="772" y="204" width="330" height="78" rx="8" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="937" y="239" font-size="16" font-weight="700" fill="#25354a" text-anchor="middle">F-06 Save png/webp/jpg</text>
+<text x="937" y="257" font-size="13" fill="#5b6b7c" text-anchor="middle">in code · never exercised</text>
+<rect x="32" y="308" width="330" height="78" rx="8" fill="#fffdf7" stroke="#287c68" stroke-width="2.5"/>
+<text x="197" y="343" font-size="16" font-weight="700" fill="#25354a" text-anchor="middle">F-07 test_paint.gd diagnostic</text>
+<text x="197" y="361" font-size="13" fill="#5b6b7c" text-anchor="middle">19/19 PASS · not visual</text>
+<rect x="402" y="308" width="330" height="78" rx="8" fill="#fffdf7" stroke="#d24e42" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="567" y="343" font-size="16" font-weight="700" fill="#d24e42" text-anchor="middle">F-08 Two native-4K Liam films</text>
+<text x="567" y="361" font-size="13" fill="#5b6b7c" text-anchor="middle">pending</text>
+<rect x="772" y="308" width="330" height="78" rx="8" fill="#faf9f5" stroke="#5b6b7c" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="937" y="343" font-size="16" font-weight="700" fill="#5b6b7c" text-anchor="middle">PX Why in Walker / learning goal</text>
+<text x="937" y="361" font-size="13" fill="#5b6b7c" text-anchor="middle">[MISSING] Q-01, Q-04</text>
+<line x1="32" y1="436" x2="72" y2="436" stroke="#25354a" stroke-width="2.5"/><text x="80" y="440" font-size="13" fill="#5b6b7c">observed in code (solid)</text>
+<line x1="260" y1="436" x2="300" y2="436" stroke="#d24e42" stroke-width="2.5" stroke-dasharray="8 6"/><text x="308" y="440" font-size="13" fill="#5b6b7c">proposed / not in code (dashed)</text>
+<line x1="520" y1="436" x2="560" y2="436" stroke="#5b6b7c" stroke-width="2.5" stroke-dasharray="8 6"/><text x="568" y="440" font-size="13" fill="#5b6b7c">[MISSING] intent (grey dashed)</text>
+</g></svg>
